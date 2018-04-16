@@ -1,0 +1,8 @@
+<h1>total count here = {{count}}<h1>
+<h1> your text <h1>
+  {{ fulltext }}
+  <h1>Words count<h1>
+
+  {% for word, counttotal in wordcount %}
+  <h1>{{ word }} :{{ counttotal }}<h1>
+  {% endfor %}

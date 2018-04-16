@@ -1,0 +1,7 @@
+django-admin startproject wordcount    --- create new folde with all project files to be created
+
+python manage.py runserver    --- start server
+http://127.0.0.1:8000/  -- this website will started fos start server
+
+python manage.py help ---- will give all commands we can use with manage.py  (runserver is included with this)
+
